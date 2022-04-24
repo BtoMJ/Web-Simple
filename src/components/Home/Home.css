@@ -1,0 +1,16 @@
+.homeContainer{
+    width: 100vw;
+    height: 800px;
+}
+
+.homeImage{
+    width: 100vw;
+    height:85%;
+    background-color: #fff;
+}
+
+.homeBanner{
+    width: 100vw;
+    height: 15%;
+    background-color: rgb(55, 177, 55);
+}
