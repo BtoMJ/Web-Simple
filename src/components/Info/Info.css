@@ -1,5 +1,90 @@
 .infoContainer{
     width: 100vw;
-    height: 1000px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: #fff;
+}
+
+.infoTitle{
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    /* border: thin solid #0f0; */
+}
+
+.infoTitle h3{
+    font-size: 1.8rem;
+    font-weight: 400;   
+    font-style: italic;
+    color: rgb(21, 212, 21);
+    /* border: thin solid #f00; */
+}
+
+.infoTitle h1{
+    font-size: 2rem;
+    font-weight: bold;   
+    /* border: thin solid #f00; */
+}
+
+.detalleContainer{
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.detalle{
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+    /* border: thin solid #f00; */
+}
+
+.detalleIcon{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: solid 1px rgb(21, 212, 21);
+}
+
+.detalleTitle{
+    margin-bottom: 15px;
+}
+
+.detalleDescripcion{
+    text-align: center;
+}
+
+.detalle a{
+    width: 120px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 30px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(21, 212, 21);
+}
+
+.detalle a:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: rgb(26, 172, 26);
 }
