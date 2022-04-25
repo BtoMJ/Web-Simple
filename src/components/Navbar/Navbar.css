@@ -1,5 +1,88 @@
 .navbarContainer{
     width: 100vw;
-    height: 60px;
+    height: 130px;
+}
+
+.navbarIcons{
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
     background-color: rgb(55, 177, 55);
 }
+
+.redesContainer{
+    width: 7%;
+    margin-right: 13%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    /* border: thin solid #f00; */
+}
+
+.redesContainer a{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    transition: 0.5s all;
+}
+
+.redesContainer a:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0 5px 10px rgb(0,0,0,0.3);
+}
+
+.navbarMenuContainer{
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbarLogo{
+    width: 40%;
+    /* border: thin solid #f00; */
+}
+
+
+.navbarLogo img{
+    width: 100px;
+    margin-top: 15px;
+    transition: 0.5s all;
+}
+
+.navbarLogo img:hover{
+    transform: scale(1.1);
+}
+
+.navbarMenu{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    /* border: thin solid #f00; */
+}
+
+.navbarMenu a{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.navbarMenu a:hover{
+    cursor: pointer;
+    transform: translateY(-3px);
+    color: rgb(55, 177, 55);
+}
+
