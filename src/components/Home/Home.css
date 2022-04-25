@@ -1,16 +1,114 @@
 .homeContainer{
     width: 100vw;
-    height: 800px;
+    height: 1000px;
 }
 
 .homeImage{
     width: 100vw;
-    height:85%;
+    height: 75%;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     background-color: #fff;
+    /* border: thin solid #f00; */
+}
+
+.title{
+    width: 40%;
+    height: 50%;
+    padding: 30px;
+    /* border: thin solid #f00; */
+}
+
+.title h1{
+    font-size: 3.5rem;
+    margin: 0 0 5px 0;
+}
+
+.title p{
+    width: 90%;
+    font-size: 1rem;
+    margin: 0 0 30px 0;
+}
+
+.title a{
+    width: 150px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(21, 212, 21);
+}
+
+.title a:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: rgb(26, 172, 26);
+}
+
+.titleImage{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: thin solid #f00; */
+}
+
+.titleImage img{
+    width: 90%;
 }
 
 .homeBanner{
     width: 100vw;
-    height: 15%;
-    background-color: rgb(55, 177, 55);
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(21, 212, 21);
+}
+
+.homeBannerInfo{
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    /* border: thin solid #f00; */
+}
+
+.homeBannerInfo img{
+    width: 90%;
+    margin-bottom: 15px;
+    /* border: thin solid #f00; */
+}
+
+.homeBanner p{
+    width: 50%;
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+    /* border: thin solid #f00; */
+
+}
+
+.homeBanner a{
+    width: 150px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgb(21, 212, 21);;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.homeBanner a:hover{
+    color: #000;
+    transform: scale(1.1);
+    box-shadow: 0 5px 10px rgb(0,0,0,0.3);
 }
