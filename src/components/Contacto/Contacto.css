@@ -107,3 +107,130 @@ textarea:focus{
     transform: scale(1.1);
     background-color: rgb(26, 172, 26);
 }
+
+@media (max-width: 480px){
+
+    .contactoContainer{
+        width: 100vw;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+    }
+    
+    .contactoForm{
+        width: 95%;
+        height: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .contactoForm h3{
+        font-size: 1.7rem;
+        font-weight: 400;   
+        font-style: italic;
+        color: rgb(21, 212, 21);
+    }
+    
+    .contactoForm h1{
+        font-size: 1.9rem;
+        text-align: center;
+        font-weight: bold;   
+    }
+    
+    .Form{
+        width: 100%;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        /* border: thin solid #f00; */
+    }
+    
+    .formContainer{
+        width: 95%;
+        height: 80px;
+        margin-bottom: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* border: thin solid #00f; */
+    }
+    
+    .formContainerArea{
+        width: 95%;
+        height: 300px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .Letrero{
+        width: 100%;
+        height: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.3rem;
+        font-weight: bold;
+        /* border: thin solid #f00; */
+    }
+    
+    .Caja{
+        width: 100%;
+        height: 40px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-top: -10px;
+        /* border: thin solid #f00; */
+    }
+    
+    .Caja:focus{
+        outline: none;
+        border: none;
+        box-shadow: 0 5px 15px  rgba(0, 0, 0, 0.2);
+    }
+    
+    textarea{
+        width: 100%;
+        height: 150px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        resize: none;
+        margin-top: -10px;
+    }
+    
+    textarea:focus{
+        outline: none;
+        border: none;
+        box-shadow: 0 5px 15px  rgba(0, 0, 0, 0.2);
+    }
+    
+    .btnSend{
+        padding: 7px 15px;
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(21, 212, 21);
+        color: #fff;
+        font-size: 1rem;
+        transition: 0.5s all;
+        position: relative;
+        margin-left: 0;
+        /* border: thin solid #f00; */
+    }
+    
+
+
+}

@@ -69,3 +69,65 @@
     box-shadow: 0 5px 10px rgb(0,0,0,0.3);
 }
 
+@media (max-width: 480px){
+
+    .multimediaContainer{
+        width: 100vw;
+        height: 700px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background-image: url(../../assets/about-bg.jpg);
+        background-image: linear-gradient(rgba(55, 177, 55, 0.9), rgba(30, 136, 30, 0.9)), url('../../assets/about-bg.jpg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+    }
+    
+    .multimediaInfo{
+        width: 90%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .video{
+        width: 345px;
+        height: 195px;
+        border: none;
+        margin-bottom: 20px;
+        box-shadow: 20px 20px 60px #02330d,
+        -20px -20px 60px #79ff79;;
+    }
+    
+    .videoMultimedia, .videoDescripcion{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        /* border: thin solid #f00; */
+    }
+    
+    .videoDescripcion h1{
+        font-size: 1.8em;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .videoDescripcion p{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    
+    .videoDescripcion a{
+        display: none;
+    }
+
+}
+

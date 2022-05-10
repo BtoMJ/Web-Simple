@@ -9,3 +9,11 @@
     color: rgb(129, 129, 129);
     background-color: #ccc;
 }
+
+@media (max-width: 480px){
+    
+    .footerContainer{
+        font-size: 0.7rem;
+    }
+
+}
