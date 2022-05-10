@@ -4,7 +4,7 @@ import './Footer.css';
 function Footer() {
   return (
     <div className="footerContainer">
-        Footer
+        Copyright © Lucky Sport 2022. Todos los derechos reservados
     </div>
   )
 }
